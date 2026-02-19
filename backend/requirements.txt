@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pytest
+httpx
+sqlalchemy
+pyodbc
+python-dotenv
+python-jose[cryptography]
+pytest-asyncio
+pytest-env
