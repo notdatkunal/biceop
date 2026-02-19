@@ -19,14 +19,129 @@ profile.cov
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-
-# Go workspace file
-go.work
-go.work.sum
-
 # env file
 .env
 
 # Editor/IDE
 # .idea/
 # .vscode/
+backend/__pycache__/main.cpython-311.pyc
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+ 
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE - VSCode, PyCharm, etc
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+.pytest_tmp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local development
+local/
+tmp/
+temp/
+.local/
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Node modules (if using frontend tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker overrides
+docker-compose.override.yml
+
+# Alembic migrations cache
+alembic/versions/__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.tmp/
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.pid
+*.seed
+.env.production
+.env.local
