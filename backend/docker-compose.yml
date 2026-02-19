@@ -1,4 +1,4 @@
-version: '3.8'
+ 
 
 services:
   db:
@@ -21,7 +21,7 @@ services:
   web:
     build: .
     container_name: fastapi_app
-    command: uvicorn app.main:app --host 0.0.0.0 --port 8078 --reload
+    command: uvicorn main:app --host 0.0.0.0 --port 8078 --reload
     ports:
       - "8078:8078"
     environment:
@@ -30,7 +30,7 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - .:/app
+      - .:/app:/app
 
 volumes:
   postgres_data:
