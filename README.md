@@ -6,6 +6,13 @@
 [![Status](https://img.shields.io/badge/status-active%20development-orange.svg)]()
 [![Stack](https://img.shields.io/badge/stack-Full%20Stack%20%7C%20IoT%20%7C%20Biometrics-green.svg)]()
 
+
+[![Views](https://hits.sh/github.com/notdatkunal/biceop.svg?view=today-total&style=flat-square&label=Views&color=007ec6)](https://hits.sh/github.com/notdatkunal/biceop/)
+[![GitHub Stars](https://img.shields.io/github/stars/notdatkunal/biceop?style=flat-square&logo=github&color=gold)](https://github.com/notdatkunal/biceop/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/notdatkunal/biceop?style=flat-square&logo=github)](https://github.com/notdatkunal/biceop/network)
+[![Commit Activity](https://img.shields.io/github/commit-activity/m/notdatkunal/biceop?style=flat-square&logo=git)](https://github.com/notdatkunal/biceop/pulse)
+[![Last Commit](https://img.shields.io/github/last-commit/notdatkunal/biceop?style=flat-square)](https://github.com/notdatkunal/biceop/commits/main)
+
 ---
 
 ## 📌 Overview
@@ -96,3 +103,14 @@ By pairing physiological telemetry with structured strength and hypertrophy trai
 ## 📄 License
 
 This project is licensed under the GNU General Public License v3.0.
+
+
+---
+
+## 📈 Repository Telemetry & Star History
+
+<div align="center">
+  <a href="https://star-history.com/#notdatkunal/biceop&Date">
+    <img src="https://api.star-history.com/svg?repos=notdatkunal/biceop&type=Date" alt="Star History Chart" width="700" />
+  </a>
+</div>
