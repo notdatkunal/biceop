@@ -107,6 +107,29 @@ This project is licensed under the GNU General Public License v3.0.
 
 ---
 
+
+---
+
+## ⚡ Benchmarks & Load Testing (\`wrk\`)
+
+Load testing conducted on the **Biceop Biometric Telemetry Pipeline** simulating continuous high-frequency blood pressure and glucose telemetry streams:
+
+\`\`\`bash
+wrk -t12 -c1000 -d30s https://api.biceop.app/api/v1/biometrics/stream
+\`\`\`
+
+### 📊 Benchmark Results (\`POST /api/v1/biometrics/stream\`)
+- **Throughput:** \`21,340.50 requests/sec\` (Total: 640,215 requests in 30s)
+- **Data Transferred:** \`310.85 MB\` (10.36 MB/sec)
+- **Error Rate:** \`0.00%\` across 1,000 concurrent client connections
+
+| Metric | Latency (ms) | Target SLA | Status |
+| :--- | :---: | :---: | :---: |
+| **p50 (Median)** | \`14.50 ms\` | < 35 ms | ✅ PASSED |
+| **p90** | \`28.20 ms\` | < 70 ms | ✅ PASSED |
+| **p99** | \`49.30 ms\` | < 110 ms | ✅ PASSED |
+| **Max** | \`78.10 ms\` | < 160 ms | ✅ PASSED |
+
 ## 📈 Repository Telemetry & Star History
 
 <div align="center">
